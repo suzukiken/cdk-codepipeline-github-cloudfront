@@ -11,6 +11,13 @@
     "@aws-cdk/aws-s3:grantWriteWithoutAcl": true,
     "@aws-cdk/aws-ecs-patterns:removeDefaultDesiredCount": true,
     "@aws-cdk/aws-rds:lowercaseDbIdentifier": true,
-    "@aws-cdk/aws-efs:defaultEncryptionAtRest": true
+    "@aws-cdk/aws-efs:defaultEncryptionAtRest": true,
+    "github-repository-name": "blog",
+    "github-owner-name": "suzukiken",
+    "github-branch-name": "master",
+    "domain": "figmentresearch.com",
+    "subdomain": "blog",
+    "crossregion-acmarn-exportname": "figmentresearch-wildcard-crossregion-acmarn",
+    "github-connection-codestararn-smname": "codepipeline-github-connections-suzukiken"
   }
 }
