@@ -1,14 +1,20 @@
-# Welcome to your CDK TypeScript project!
+# Example CDK TypeScript Project
 
-This is a blank project for TypeScript development with CDK.
+To deploy code deployment flow with CodePipeline.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+### Resources that this CDK project creates
 
-## Useful commands
+* S3 bucket
+* CloudFront distribution
+* Route53 record
+* CodePipeline
+  * get source from Github
+  * place build files to S3 bucket
+* Invalidate CloudFront cache with Lambda
 
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+### Commands
+
+* `npm install`
+* `cdk deploy`
+
+[description](https://note.figmentresearch.com/aws/cdkcodepipeline-github-cloudfront)
